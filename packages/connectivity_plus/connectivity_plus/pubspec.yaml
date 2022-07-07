@@ -32,7 +32,9 @@ dependencies:
   connectivity_plus_linux: ^1.3.0
   connectivity_plus_macos: ^1.2.4
   connectivity_plus_web: 
-    path: ../connectivity_plus_web/
+    git:
+      url: https://github.com/NarekManukyan/plus_plugins
+      path: packages/connectivity_plus/connectivity_plus_web
   connectivity_plus_windows: ^1.2.2
 
 dev_dependencies:
